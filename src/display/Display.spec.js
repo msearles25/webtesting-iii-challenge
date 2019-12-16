@@ -20,4 +20,3 @@ test('Correct is rendered base on closed state', () => {
     rerender(<Display closed={true}/>)
     getByTestId('closed')
 })
-
