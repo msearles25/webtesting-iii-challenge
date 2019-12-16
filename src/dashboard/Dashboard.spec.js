@@ -10,6 +10,6 @@ it('Renders display component', () => {
    render(<Display />)
 })
 
-it('Renders controls component', () => {
+it('Renders controls component', () => {render(<Controls />)
     render(<Controls />)
 })
